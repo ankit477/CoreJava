@@ -1,0 +1,46 @@
+package Everyclass;
+
+import java.util.Scanner;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int first=10;
+		int sceond=20;
+
+	        System.out.print("Enter an operator (+, -, *, /): ");
+
+	        int result;
+
+	        switch(result)
+	        {
+	            case '+':
+	                result = first + second;
+	                break;
+
+	            case '-':
+	                result = first - second;
+	                break;
+
+	            case '*':
+	                result = first * second;
+	                break;
+
+	            case '/':
+	                result = first / second;
+	                break;
+
+	            // operator doesn't match any case constant (+, -, *, /)
+	            default:
+	                System.out.printf("Error! operator is not correct");
+	                return;
+	        }
+
+	        System.out.printf("%.1f %c %.1f = %.1f", first, operator, second, result);
+	    }
+	
+
+	}
+
+}
