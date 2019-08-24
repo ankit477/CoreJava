@@ -1,0 +1,15 @@
+package Everyclass;
+
+public class inc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		int b=15;
+		System.out.print("The" + a++);
+		
+		System.out.print("The" + b++);
+
+	}
+
+}
